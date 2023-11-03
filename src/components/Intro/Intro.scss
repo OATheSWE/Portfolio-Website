@@ -1,0 +1,17 @@
+@import 'typed';
+
+.placeholder {
+    pointer-events: none;
+    @include typed(
+      "  a Software Engineer",
+      "  a Web Developer",
+      "  a UI/UX Designer",
+      "  an Entrepreneur",
+      "  an Innovative Prodigy",
+      1.5,
+      (
+        caret-width: 2px,
+        caret-space: 2px
+      )
+    );
+  }
